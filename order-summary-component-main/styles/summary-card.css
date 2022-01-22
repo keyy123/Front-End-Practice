@@ -1,5 +1,4 @@
 
-
 .summary-card{
     width: 60%;
     height: 100%;
@@ -16,10 +15,4 @@
     min-width: 321px;
     min-height: 510px;
     max-height: 510px;
-}
-
-@media screen and (min-width: 500px) {
-    .summary-card{
-        
-    }
 }
