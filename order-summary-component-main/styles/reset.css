@@ -1,0 +1,20 @@
+*{
+ padding: 0px;
+ margin: 0px;   
+}
+
+body{
+background-color:hsl(225, 100%, 94%); 
+background-image: url("../images/pattern-background-mobile.svg");
+background-repeat: no-repeat;
+background-size: contain;
+font-size:16px;
+width: 100vw;
+height: 100vh;
+}
+
+@media screen and (min-width: 1250px) {
+    body{
+        background-image: url("../images/pattern-background-desktop.svg");
+    }
+}

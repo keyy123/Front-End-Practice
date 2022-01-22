@@ -3,31 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="./styles/style.css"/>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Desktop: 1440px; Mobile: 375px; -->
+  
+
 </head>
 <body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
+<div class="summary-card">
+<div class="card image">
+<img class ="image" src="images/illustration-hero.svg"/>
+</div>
+<div class="card order">
+  <div class="order-body">
+    <h2 class="order header"> Order Summary</h2>
+    <p class="order-paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</p>
+    <div class="order-btn-panel">
+      <div class="row">
+        <img class="icon" src="images/icon-music.svg"/>
+        <p>
+          <span class="plan-emphasis">Annual Plan</span> <br/> <span class="price-emphasis">$59.99/year</span>
+        </p>
+        <button class="change-btn">Change</button>
+      </div>
+    </div>
+    <button class="payment-btn">Proceed to Payment</button>
+    <button class="cancel-btn">Cancel Order</button> 
+    </div> 
+  </div>
+</div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

@@ -1,0 +1,33 @@
+.row{
+    display: flex;
+    align-items: center;   
+}
+
+.plan-emphasis{
+    font-weight: 700;
+    font-family: "Red Hat Display";
+}
+
+.price-emphasis{
+    color: hsl(224, 23%, 55%);
+    font-family: "Red Hat Display";
+    font-weight: 500;
+}
+
+.change-btn{
+    margin-left: auto;
+    background-color: transparent;
+    border:none;
+    text-decoration: underline;
+    padding-right: 15px;
+    color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+}
+
+.change-btn:active{
+    text-decoration: none;
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+    color: hsla(245, 75%, 52%, 65%)
+}

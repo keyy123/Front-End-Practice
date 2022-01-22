@@ -1,0 +1,11 @@
+.cancel-btn{
+    border: none;
+    background-color: transparent;
+    font-family: "Red Hat Display";
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn:active{
+    color: black
+}

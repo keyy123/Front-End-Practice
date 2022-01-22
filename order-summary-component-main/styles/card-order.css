@@ -1,0 +1,15 @@
+.order{
+    flex: 3 0 50%;
+}
+
+.order-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.order-paragraph{
+    margin: 0 auto;
+    max-width: 81%;
+}

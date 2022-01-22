@@ -1,0 +1,15 @@
+.payment-btn{
+    padding: 15px 73px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 26px 16px hsla(245,75%,52%,15%);
+    margin-bottom: 10px;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+}
+
+.payment-btn:active{
+    background-color:hsla(245, 75%, 52%, 65%)
+}
